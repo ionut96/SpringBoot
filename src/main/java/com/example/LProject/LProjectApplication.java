@@ -7,8 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LProjectApplication {
 
     public static void main(String[] args) {
-        int aux = 2;
-        SpringApplication.run(LProjectApplication.class, args);
-    }
 
+       SpringApplication.run(LProjectApplication.class, args);
+//        ConfigurableApplicationContext context = SpringApplication.run(LProjectApplication.class, args);
+//        User user = context.getBean(User.class);
+//        user.show();
+    }
 }
