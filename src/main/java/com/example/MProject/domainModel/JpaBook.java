@@ -9,7 +9,11 @@ public class JpaBook {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int idBook;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "author")
     private String author;
 
     public JpaBook() {}
