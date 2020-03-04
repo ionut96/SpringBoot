@@ -1,11 +1,8 @@
 package com.example.MProject.jdbc;
 
-import com.zaxxer.hikari.HikariDataSource;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import java.io.FileInputStream;
 import java.sql.*;
-import java.util.Properties;
 
 
 public class DbStatementConnection {

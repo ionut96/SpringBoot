@@ -47,6 +47,4 @@ public class PersonController {
         personService.updatePerson(id, personToUpdate);
     }
 
-
-
 }

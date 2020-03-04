@@ -1,13 +1,11 @@
 package com.example.MProject.jdbc;
 
 import com.zaxxer.hikari.HikariDataSource;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import javax.sql.DataSource;
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Properties;
 
